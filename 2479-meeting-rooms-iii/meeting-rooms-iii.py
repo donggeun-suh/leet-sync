@@ -24,7 +24,6 @@ class Solution:
             
             heapq.heappush(rooms, room)
         
-        
         return count.index(max(count))
                 
         
